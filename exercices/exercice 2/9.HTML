@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul des moyennes</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Informations des étudiants</h1>
+
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>Ahmed</td>
+            <td>Mathématiques: 15<br>Physique: 12<br>Chimie: 14</td>
+        </tr>
+        <tr>
+            <td>Fatima</td>
+            <td>Mathématiques: 18<br>Physique: 16<br>Chimie: 17</td>
+        </tr>
+        <tr>
+            <td>Yassine</td>
+            <td>Mathématiques: 10<br>Physique: 8<br>Chimie: 9</td>
+        </tr>
+        <tr>
+            <td>Zineb</td>
+            <td>Mathématiques: 19<br>Physique: 17<br>Chimie: 18</td>
+        </tr>
+    </table>
+
+    <form action="9.PHP" method="POST">
+        <button type="submit">Calculer les moyennes</button>
+    </form>
+</body>
+</html>
